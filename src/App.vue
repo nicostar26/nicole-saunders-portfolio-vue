@@ -4,7 +4,7 @@ import MyExpertise from "./components/MyExpertise.vue";
 </script>
 
 <template>
-  <div class="wrapper">
+  <div class="bg-slate-900">
     <video margin="0" autoplay loop>
       <source src="./assets/header-video.mp4" type="video/mp4" />
     </video>
@@ -13,8 +13,7 @@ import MyExpertise from "./components/MyExpertise.vue";
   </div>
 </template>
 
-<style scoped>
-@import "./style.css";
+<style>
 .wrapper {
   padding: 0px;
   margin: 0px;
