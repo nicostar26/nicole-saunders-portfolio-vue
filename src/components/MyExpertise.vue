@@ -1,16 +1,15 @@
-<script setup></script>
+<script setup>
+import SectionTitle from "./SectionTitle.vue";
+import ExpertiseBox from "./ExpertiseBox.vue";
+</script>
 
 <template>
-  <div class="bg-slate-900">
-    <div class="text-white">
-      <h2 class="text-white">Software Development</h2>
-    </div>
-    <div class="text-white">
-      <h2>Front-End Development</h2>
-    </div>
-    <div class="text-white">
-      <h2>Content Management</h2>
-    </div>
+  <SectionTitle title="My Expertise" />
+
+  <div class="bg-black grid grid-cols-3 gap-16 w-100 px-12 justify-center">
+    <ExpertiseBox box-title="Software Development" />
+    <ExpertiseBox box-title="Front-End Development" />
+    <ExpertiseBox box-title="Content Management" />
   </div>
 </template>
 

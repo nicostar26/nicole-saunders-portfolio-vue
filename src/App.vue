@@ -4,7 +4,7 @@ import MyExpertise from "./components/MyExpertise.vue";
 </script>
 
 <template>
-  <div class="bg-slate-900">
+  <div class="bg-black">
     <video margin="0" autoplay loop>
       <source src="./assets/header-video.mp4" type="video/mp4" />
     </video>
