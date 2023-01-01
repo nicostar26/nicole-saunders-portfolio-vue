@@ -3,7 +3,7 @@
 <template>
   <div class="footer-wrapper">
     <div class="footer-section">
-      <img src="../../public/logo.png" alt="logo" />
+      <img src="/logo.png" alt="logo" />
     </div>
     <div class="footer-section">
       <h3>Reach Out</h3>

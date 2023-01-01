@@ -1,6 +1,7 @@
 <script setup>
 import Footer from "./components/Footer.vue";
 import MyExpertise from "./components/MyExpertise.vue";
+import MyWork from "./components/MyWork.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import MyExpertise from "./components/MyExpertise.vue";
       <source src="./assets/header-video.mp4" type="video/mp4" />
     </video>
     <MyExpertise />
+    <MyWork />
     <Footer />
   </div>
 </template>
